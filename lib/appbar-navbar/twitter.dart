@@ -7,50 +7,12 @@ import 'package:twitter/screens/twittter5.dart';
 import 'package:twitter/screens/twittter6.dart';
 import 'package:twitter/screens/twittter7.dart';
 import 'package:twitter/model/user-model.dart';
+import 'package:twitter/screens/twitter-home.dart';
 
 import '../screens/twitter-home.dart';
 
 class MainScreen extends StatefulWidget {
   MainScreen({super.key});
-
-  List<dynamic> tweets = [
-    Post(
-        UserName: 'Zoro',
-        IdName: '@Zoro-_-',
-        Text: 'Iam strong',
-        Images: 'lib/images/zoro.jpeg',
-        ImageProfile: 'lib/images/zoro.jpeg'),
-    Post(
-        UserName: 'Luffy',
-        IdName: '@Luffy-_-',
-        Text: 'iam king',
-        Images: 'lib/images/luffy.jpeg',
-        ImageProfile: 'lib/images/luffy.jpeg'),
-    Post(
-        UserName: 'Nika',
-        IdName: '@Nika-_-',
-        Text: 'Iam king Pirates',
-        Images: 'lib/images/nika.jpeg',
-        ImageProfile: 'lib/images/nika.jpeg'),
-    Post(
-        UserName: 'Shanks',
-        IdName: '@Shanks-_-',
-        Text: 'Iam teatcher',
-        Images: 'lib/images/shanks.jpeg',
-        ImageProfile: 'lib/images/shanks.jpeg'),
-    Post(
-        UserName: 'Sir',
-        IdName: '@Sir-_-',
-        Text: 'Iam A sir',
-        Images: 'lib/images/sir.jpeg',
-        ImageProfile: 'lib/images/sir.jpeg'),
-    Post(
-        UserName: 'Sanjy',
-        IdName: '@Sanjy-_-',
-        Text: 'Iam A Prince',
-        Images: 'lib/images/sanjy.jpeg',
-        ImageProfile: 'lib/images/sanjy.jpeg'),
-  ];
 
   @override
   State<MainScreen> createState() => _MainScreenState();

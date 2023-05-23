@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../data/twitter.dart';
+import '../appbar-navbar/twitter.dart';
 
 class Profile extends StatefulWidget {
   const Profile({super.key});
